@@ -14,7 +14,7 @@ public class Query
         public object Result;
 }
 ```
-### Query Class For Performing Command
+### Command Class For Performing Command
 ```
 public class Command:EventArgs
 {
