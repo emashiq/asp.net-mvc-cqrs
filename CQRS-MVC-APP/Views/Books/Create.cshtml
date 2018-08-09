@@ -1,0 +1,12 @@
+﻿@model CQRS.ViewModels.BookViewModel
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+@using (Html.BeginForm())
+{
+   @Html.LabelFor(x=>x.Name)
+   @Html.EditorFor(x => x.Name, null, new { @class="form-control" })
+   <input type="submit" value="Save" />
+}
